@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+   font-weight: 900;
+}
+#wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.wrapperleft span{
+    color: blue;
+}
+.wrapperright ul{
+    display: flex;
+}
+.wrapperright ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.wrapperright a{
+    text-decoration: none;
+    color: black;
+}
+.wrapperright span{
+    color: white;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+#service{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.serviceleft{
+    width: 50%;
+    padding-left: 115px;
+}
+.service1 h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.service1 p{
+    padding: 40px 0px;
+}
+.service2 a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+} 
+#servicebetween{
+    padding-top: 100px;
+}
+.servicebetcenter h1{
+    text-align: center;
+}
+.servicebetbottom ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.servicebetbottom ul li{
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+}
+.right1 img{
+    width: 14rem;
+}
+.right2 img{
+    width:14rem;
+}
+.right3 img{
+    width: 13rem;
+}
+.right4 img{
+    width: 11rem;
+}
+.right5 img{
+    width: 5rem;
+    padding-bottom: 10px;
+}
+.presenthead h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 150px;
+}
+
+.presentcenter{
+    display: flex;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+}
+
+.image1{
+    width: 30%;
+}
+.presentright1{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10rem 0;
+}
+.presentright1 h3{
+    padding: 20px 0px;
+}
+.presentright1 h6{
+    padding: 10px 0px;
+}
+.presentright1 p{
+    padding: 21px 0px;
+}
+
+.presentright2{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10rem 0;
+}
+
+.presentright2 h3{
+    padding: 20px 0px;
+}
+.presentright2 h6{
+    padding: 10px 0px;
+}
+.presentright2 p{
+    padding: 20px 0px;
+}
+
+.presentright3{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10rem 0px;
+}
+
+.presentright3 h3{
+    padding: 20px 0px;
+}
+.presentright3 h6{
+    padding: 10px 0px;
+}
+.presentright3 p{
+    padding: 20px 0px;
+}
+
+.ab{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ab p{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 40px;
+    background-color: #747486;
+}
+
+.comhead{
+    background: url(/images/our-commitment-bg-1.jpeg) no-repeat scroll center / cover;
+    height: 1000px;
+}
+.head h1{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+}
+
+#photo{
+    background: url(/images/our-commitment-bg-1.jpeg) no-repeat scroll center / cover;
+    height: 1500px;
+}
+
+#photo .commit{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 8rem ;
+}
+
+#photo .fastaffort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    text-align: center;
+}
+
+.fast{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin:0 5rem;
+    border-radius: 10%;
+    padding: 3.4rem;
+}
+
+.fastaffort .fast img{
+    width: 30%;
+}
+
+.fast h1{
+    color: #fff;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.fast p{
+    color: #fff;
+    margin: 2rem;
+    font-size: 25px;
+}
+
+
+.affort{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin: 5rem;
+    border-radius: 10%;
+    padding: 3rem;
+}
+
+.fastaffort .affort img{
+    width: 30%;
+}
+
+.affort h1{
+    color: #fff;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.affort p{
+    color: #fff;
+    margin: 2rem;
+    font-size: 25px;
+}
+
+
+.gauranty{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin: 0 36rem;
+    padding: 2rem;
+    border-radius: 10%;
+}
+
+.gauranty img{
+    width: 30%;
+}
+
+.gauranty h1{
+    color: #fff;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.gauranty p{
+    color: #fff;
+    margin: 2rem;
+    font-size: 25px;
+}
+
+
+#init{
+    background-color: darkgray;
+}
+
+.tex h1{
+    font-size: 80px;
+    font-weight: 400px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 0rem;
+}
+
+.developer{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.expert img{
+    width: 4rem;
+    margin: 1rem 0;
+}
+
+.expert h3{
+    font-size: 30px;
+    margin: 0.8rem 0;
+    font-weight: 400px;
+}
+
+.expert p{
+    font-size: 25px;
+}
+
+.code{
+    margin-bottom:5rem ;
+}
+
+.value{
+    margin-bottom: 5rem;
+}
+
+.mode{
+    margin-bottom: 5rem;
+}
+
+.size img{
+    width: 4rem;
+    margin: 1rem 0;
+}
+
+.size{
+    margin: 0 2rem;
+}
+.size h3{
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 0.8rem;
+}
+
+.size p{
+    font-size: 25px;
+}
+
+.project{
+    margin-bottom: 3rem;
+}
+
+.frame{
+    margin-bottom: 3rem;
+}
+
+.scrum{
+    margin-bottom: -1rem;
+}
+
+.through h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400px;
+    margin: 5rem 0;
+}
+
+.talk{
+    display: flex;
+    justify-content: space-around;
+}
+
+.technic{
+    width: 60%;
+    text-align: center;
+}
+
+.technic img{
+    text-align: center;
+    width: 70%;
+}
+
+.work{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.within .industry h1{
+    border: 10px solid rgb(38, 0, 255);
+    border-radius: 50% ;
+    font-size: 80px;
+    padding: 0rem 2rem;
+    margin: 2rem;
+}
+
+.within .to{
+    margin-top: 5rem;
+}
+.within .to h1{
+    border: 10px solid rgb(38,0,255);
+    border-radius: 50%;
+    font-size: 80px;
+    padding: 0rem 2rem;
+    margin: 2rem;
+}
+
+.within .se{
+    margin-top: 5rem ;
+}
+.within .se h1{
+    border: 10px solid rgb(38,0,255);
+    border-radius: 50%;
+    font-size: 80px;
+    padding: 0rem 2rem;
+    margin: 2rem;
+}
+
+.within span{
+    color: rgb(38,0,255);
+}
+
+.the{
+    margin: 1.8rem 1rem;
+}
+
+.the .royal h2{
+    font-size: 35px;
+}
+
+.the .royal p{
+    font-size: 22px;
+}
+
+.the .new{
+    margin: 2rem 0;
+}
+
+.the .new h2{
+    font-size: 30px;
+}
+
+.the .new p{
+    font-size: 22px;
+}
+
+.the .only{
+    margin: 5rem 0;
+}
+
+.the .only h2{
+    font-size: 30px;
+}
+
+.the .only p{
+    font-size: 22px;
+}
+
+#unlease{
+    background-color: rgb(77, 66, 172);
+    height: 400px;
+}
+.human{
+    width: 50%;
+    margin: 0 auto;
+}
+.human h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.hire{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.apply a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    margin: 0 2rem;
+    font-size: 30px;
+    border-radius: 8%;
+    background-color: rgb(85, 79, 131);
+}
+
+.job a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    margin: 0 2rem;
+    font-size: 30px;
+    border:  solid;
+    border-radius: 6%;
+    background-color: rgb(85, 79, 131);
+
+}
+
+.apply p{
+    position: absolute;
+    top:2rem;
+    left: 50rem;
+    font-size: 30px;
+    color: #fff;
+}
+
+#base{
+    background-color: rgb(38, 0, 255);
+    height: 600px;
+
+}
+
+.tm h1{
+    padding: 10rem 0 5rem 10rem;
+    font-size: 40px;
+    color: #fff;
+}
+
+.tweet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acer ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+}
+
+.tweet ul li{
+    list-style: none;
+    padding: 1.5rem;
+}
+
+.tweet ul a{
+    color: #fff;
+    font-size: 25px;
+}
+
+.sara a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 20px;
+}
+
+.khali{
+    padding: 0.8rem 5rem;
+}
+
+.khali p{
+    color: rgb(231, 199, 199);
+    padding: 0.3rem;
+}
