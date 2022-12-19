@@ -11,9 +11,10 @@
     align-items: center;
     padding-top: 40px;
 }
-.wrapperleft span{
-    color: blue;
+.wrapperleft img{
+    width: 150px;
 }
+
 .wrapperright ul{
     display: flex;
 }
@@ -113,7 +114,7 @@
     border-radius: 30px;
     text-align: center;
     margin: 10px;
-    padding: 10rem 0;
+    padding: 4rem  0;
 }
 .presentright1 h3{
     padding: 20px 0px;
@@ -131,7 +132,7 @@
     border-radius: 30px;
     text-align: center;
     margin: 10px;
-    padding: 10rem 0;
+    padding: 4rem 0;
 }
 
 .presentright2 h3{
@@ -150,7 +151,7 @@
     border-radius: 30px;
     text-align: center;
     margin: 10px;
-    padding: 10rem 0px;
+    padding: 4rem 0px;
 }
 
 .presentright3 h3{
@@ -175,42 +176,32 @@
     background-color: #747486;
 }
 
-.comhead{
-    background: url(/images/our-commitment-bg-1.jpeg) no-repeat scroll center / cover;
-    height: 1000px;
-}
-.head h1{
-    color: #fff;
-    text-align: center;
-    font-size: 70px;
-}
-
 #photo{
     background: url(/images/our-commitment-bg-1.jpeg) no-repeat scroll center / cover;
-    height: 1500px;
+    height: 1000px;
 }
 
 #photo .commit{
     color: #fff;
     text-align: center;
-    font-size: 60px;
-    padding-top: 8rem ;
+    font-size: 35px;
+    padding-top: 4rem ;
 }
 
 #photo .fastaffort{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8rem;
+    margin-top: 5rem;
     text-align: center;
 }
 
 .fast{
     background-color: rgba(0, 0, 0, 0.5);
     width: 30%;
-    margin:0 5rem;
+    margin: 1rem;
     border-radius: 10%;
-    padding: 3.4rem;
+    padding: 1rem;
 }
 
 .fastaffort .fast img{
@@ -226,16 +217,16 @@
 .fast p{
     color: #fff;
     margin: 2rem;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 .affort{
     background-color: rgba(0, 0, 0, 0.5);
     width: 30%;
-    margin: 5rem;
+    margin:0 1rem;
     border-radius: 10%;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .fastaffort .affort img{
@@ -251,7 +242,7 @@
 .affort p{
     color: #fff;
     margin: 2rem;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -259,8 +250,8 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     width: 30%;
-    margin: 0 36rem;
-    padding: 2rem;
+    margin:2rem 29rem;
+    padding: 1rem;
     border-radius: 10%;
 }
 
@@ -270,23 +261,23 @@
 
 .gauranty h1{
     color: #fff;
-    margin: 2rem;
+    margin: 1rem;
     font-size: 30px;
 }
 
 .gauranty p{
     color: #fff;
-    margin: 2rem;
+    margin: 1.8rem;
     font-size: 25px;
 }
 
 
 #init{
-    background-color: darkgray;
+    background-color: rgb(248, 246, 246);
 }
 
 .tex h1{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 400px;
     width: 50%;
     margin: 0 auto;
@@ -295,7 +286,7 @@
 
 .developer{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -311,7 +302,7 @@
 }
 
 .expert p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .code{
@@ -332,7 +323,8 @@
 }
 
 .size{
-    margin: 0 2rem;
+    margin: 0 0rem;
+    justify-content: center;
 }
 .size h3{
     font-size: 30px;
@@ -341,24 +333,25 @@
 }
 
 .size p{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .project{
-    margin-bottom: 3rem;
+    margin-bottom: 5.5rem;
 }
 
 .frame{
-    margin-bottom: 3rem;
+    margin-bottom: 3.8rem;
 }
 
-.scrum{
-    margin-bottom: -1rem;
+#hire{
+    margin-bottom: 5rem;
 }
+
 
 .through h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400px;
     margin: 5rem 0;
 }
@@ -386,33 +379,33 @@
 
 
 .within .industry h1{
-    border: 10px solid rgb(38, 0, 255);
+    border: 8px solid rgb(38, 0, 255);
     border-radius: 50% ;
-    font-size: 80px;
-    padding: 0rem 2rem;
-    margin: 2rem;
+    font-size: 50px;
+    padding: 0rem 0.8rem;
+    margin: 0.8rem;
 }
 
 .within .to{
     margin-top: 5rem;
 }
 .within .to h1{
-    border: 10px solid rgb(38,0,255);
+    border: 8px solid rgb(38,0,255);
     border-radius: 50%;
-    font-size: 80px;
-    padding: 0rem 2rem;
-    margin: 2rem;
+    font-size: 50px;
+    padding: 0rem 0.8rem;
+    margin: 0.8rem;
 }
 
 .within .se{
     margin-top: 5rem ;
 }
 .within .se h1{
-    border: 10px solid rgb(38,0,255);
+    border: 8px solid rgb(38,0,255);
     border-radius: 50%;
-    font-size: 80px;
-    padding: 0rem 2rem;
-    margin: 2rem;
+    font-size: 50px;
+    padding: 0rem 0.8rem;
+    margin: 0.8rem;
 }
 
 .within span{
@@ -420,15 +413,16 @@
 }
 
 .the{
-    margin: 1.8rem 1rem;
+    margin: 0.8rem 2rem;
 }
 
 .the .royal h2{
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .the .royal p{
-    font-size: 22px;
+    font-size: 17px;
+    margin-right: 1rem;
 }
 
 .the .new{
@@ -436,44 +430,50 @@
 }
 
 .the .new h2{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .the .new p{
-    font-size: 22px;
+    font-size: 17px;
+    margin-right: 1rem;
 }
 
 .the .only{
-    margin: 5rem 0;
+    margin: 4rem 0;
 }
 
 .the .only h2{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .the .only p{
-    font-size: 22px;
+    font-size: 17px;
+    margin-right: 1rem;
 }
 
 #unlease{
     background-color: rgb(77, 66, 172);
     height: 400px;
 }
+
 .human{
     width: 50%;
-    margin: 0 auto;
+    margin: 0rem auto;
 }
+
 .human h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
+    font-weight: 400px;
+    color: #fff;
+    padding: 3rem 2rem;
 }
 
 .hire{
     display: flex;
     justify-content: center;
-    margin: 5rem 2rem;
+    margin: 0rem 2rem;
     padding: 2rem;
-    position: relative;
 }
 
 .apply a{
@@ -498,22 +498,19 @@
 
 }
 
-.apply p{
-    position: absolute;
-    top:2rem;
-    left: 50rem;
-    font-size: 30px;
+.or{
     color: #fff;
+    font-size: 20px;
 }
 
 #base{
     background-color: rgb(38, 0, 255);
-    height: 600px;
+    height: 500px;
 
 }
 
 .tm h1{
-    padding: 10rem 0 5rem 10rem;
+    padding: 5rem 0 5rem 6rem;
     font-size: 40px;
     color: #fff;
 }
@@ -541,17 +538,26 @@
 }
 
 .sara a{
+    width: 100%;
+    height: 100vh;
     text-decoration: none;
     color: #fff;
     padding: 1.5rem;
     font-size: 20px;
+    transition: all 0.5s ease ;
 }
+
+.sara a:hover{
+    color: red;
+}
+
 
 .khali{
     padding: 0.8rem 5rem;
 }
 
 .khali p{
+    font-size: 15px;
     color: rgb(231, 199, 199);
     padding: 0.3rem;
 }
